@@ -1,0 +1,42 @@
+		<br><br>
+		<div class="row">
+			<div class="col-sm-8">
+				<h3 style="color:gray">General Knowledge Test Started</h3>
+			</div>
+			<div class="col-sm-4"><br>
+				<div id="timer"></div>
+			</div>
+		</div>
+		<div class="Bigrects">
+			<div class="row">
+				<div class="col-sm-8">
+					<div class="list"><br>
+						<ol>
+							<li ng-repeat="quest in questions">{{ quest.question }}
+								<ol type="A">
+									<li ng-repeat="opt in quest.options">
+										<input type="radio" name="ans"> {{opt}}
+									</li>
+								<ol>
+								<br>
+							</li>
+						</ol>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="jumpotran">
+						<p style="font-weight:bold;margin-left:5px">Note:</p>
+						<ul>
+							<li>Click the 'Submit Test' button given in the bottom of this page to Submit your answers.</li>
+							<li>Test will be submitted automatically if the time expired.</li>
+							<li>Don't refresh the page.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="testSubmit">
+				<br><input type="submit" class="btn btn-success btn-md" value="Submit Test" ng-click="startTimer()">
+		</div>
+
+		

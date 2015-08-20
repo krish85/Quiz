@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="mainApp">
+    <head lang="en">
+      <meta charset="utf-8">
+      <title>Online Quiz</title>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular-route.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+      <script src="app.js"></script>
+      <link rel="stylesheet" type="text/css" href="quiz.css">
+    </head>
+    <body>
+      <nav class="navbar navbar-inverse navbar-fixed">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#" style="color:teal"> Welcome to Krish Qz </a>
+        </div>
+        <div>
+          <ul class="nav navbar-nav">
+            <li> <a href="#/home">Home</a></li>
+            <li> <a href="#">Tutorial</a></li>
+            <li> <a href="#">Courses</a></li>
+            <li> <a href="#">About Us</a></li>
+            <li> <a href="#">Carrer</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+ 
+      <div>
+        <ng-view></ng-view>
+      </div>
+      <script>
+          
+                 
+      </script>
+ 
+
+	</body>
+</html>

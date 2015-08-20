@@ -1,0 +1,62 @@
+[
+  {
+	"question":"LPG consists of mainly",
+	"options":["methane, ethane and hexane","ethane, hexane and nonane", "methane, hexane and nonane", "methane, butane and propane" ],
+	"answer":"methane, butane and propane"
+
+  },
+  {
+	"question":"National Anthem was first sung on",
+	"options":["December 27, 1911 during the Indian National Congress Session at Calcutta", "January 24, 1950 by the Constituent Assembly of India", "January 26, 1959 by the Government of India", "None of the above"],
+	"answer":"December 27, 1911 during the Indian National Congress Session at Calcutta"
+
+  },
+  {
+	"question":"The highest and lowest values of a weather element observed over the entire period of record are",
+	"options":["extremes", "average extremes", "absolute extremes", "relative extremes"],
+	"answer":"absolute extremes"
+
+  },
+  {
+	"question":"The Rh factor refers to",
+	"options":["a protein substance found in the blood of some people", "a hormone carried by the blood", "the ratio of red corpuscles to white corpuscles in the blood", "a process that speeds up the clothing of blood"],
+	"answer":"a protein substance found in the blood of some people"
+
+  },
+    {
+	"question":"The common pesticides which are in use consist of",
+	"options":["PCBs", "organochlorines", "olefins", "heterocyclic compounds"],
+	"answer":"olefins"
+
+  },
+    {
+	"question":"The first foreigner to receive Bharat Ratna was",
+	"options":["Khan Abdul Ghaffar Khan", "Nelson Mandela", "C.V. Raman", "None of the above"],
+	"answer":"Khan Abdul Ghaffar Khan"
+
+  },
+    {
+	"question":"The number of major ports in India is",
+	"options":[5,8,13,15],
+	"answer":13
+
+  },
+    {
+	"question":"The zonal soil type of peninsular India belongs to",
+	"options":["red soils", "yellow soils", "black soils", "older alluvium"],
+	"answer":"red soils"
+
+  },
+    {
+	"question":"Soil acidity is generally corrected by",
+	"options":["proper irrigation", "adding sodium hydroxide", "liming", "application of fertilizers"],
+	"answer":"liming"
+
+  },
+    {
+	"question":"The minimum age required to become a member of Rajya Sabha is",
+	"options":["21 years", "24 years", "30 years", "35 years"],
+	"answer":"30 years"
+
+  }
+]
